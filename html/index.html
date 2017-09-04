@@ -1,0 +1,1004 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>饿了吗</title>
+    <style>
+        .hang{
+            display: inline-block;
+        }
+        .top{
+            width: 100%;
+            background-color:#1E89E0 ;
+
+        }
+        .top1{
+            margin-left: 14%;
+        }
+        .top-font{
+            font-size: 16px;
+            color: white;
+            line-height: 100%;
+            vertical-align: top;
+            padding-top: 23px;
+            margin-left: 2%;
+            margin-right: 3%;
+        }
+        .h{
+            margin-right: 16%;
+        }
+        .kf{
+            vertical-align: top;
+            margin-top: 20px;
+            margin-right: -1%;
+        }
+        .phone{
+            vertical-align: top;
+            margin-top: 10px;
+            margin-right: -2%;
+        }
+        a{
+            text-decoration: none;
+        }
+        .jing{
+            margin: 20px 140px 20px 14%;
+            font-size: 5px;
+            position: relative;
+        }
+        .inso{
+            width: 300px;
+            height: 30px;
+            float: right;
+        }
+        .so{
+            position: absolute;
+            right: 2px;
+            top:2px;
+        }
+        .hwo{
+            margin-top: 30px;
+            overflow: hidden;
+        }
+        .hwo>img{
+            width: 186px;
+            height: 42px;
+            margin-top: 10px;
+           float: right;
+        }
+        .kinds{
+            width: 100%;
+            height: 100px;
+            border: 1px solid #E6E6E6;
+            overflow: hidden;
+        }
+        .kind_left{
+            width: 100px;
+            color: gray;
+            padding: 20px 20px;
+            font-size: 15px;
+            float: left;
+        }
+        .kind_right{
+            float: left;
+            width: 940px;
+            font-size: 15px;
+        }
+        .kind_right>a{
+            color: gray;
+            padding: 20px 20px 5px;
+            height: auto;
+            display: inline-block;
+        }
+        .center{
+            border: 1px solid gray;
+            margin: 30px 140px 20px 14%;
+        }
+        .food_line{
+            border-bottom:1px solid gray ;
+        }
+        .food{
+            width: 24%;
+            /*border: 1px solid black;*/
+            display: inline-block;
+        }
+        .food_left{
+            color: red;
+            font-size: 10px;
+            display: inline-block;
+            text-align: center;
+            padding: 15px 0 0 15px;
+        }
+        .food_right{
+            height: 100px;
+            display: inline-block;
+            font-size: 10px;
+            color: gray;
+            vertical-align: top;
+            margin-top: 10px;
+        }
+        .name{
+            font-size: 20px;
+            color: black;
+            margin-bottom: 5px;
+        }
+        .money{
+            margin: 5px 0;
+        }
+        .bao{
+            display: inline-block;
+            font-size: 10px;
+            border: 1px solid darkgrey;
+            padding:0 2px;
+            color: darkgrey;
+            border-radius: 4px;
+
+        }
+        .piao{
+            display: inline-block;
+            font-size: 10px;
+            border: 1px solid darkgrey;
+            background-color: red;
+            padding: 0 2px;
+            color: white;
+            border-radius: 4px;
+        }
+        .xiu{
+            display: inline-block;
+            font-size: 10px;
+            border: 1px solid darkgrey;
+            background-color: black;
+            padding:0 2px;
+            color: white;
+            border-radius: 4px;
+            opacity: 0.5;
+        }
+        .center_foot{
+            text-align: center;
+            font-size: 20px;
+            margin: 20px 0;
+            color: gray;
+        }
+        p{
+            margin: 0px;
+        }
+        .last{
+            width: 100%;
+            border: 1px solid gray;
+            /*height: 200px;*/
+            padding: 30px;
+            background-color: #F7F7F7;
+        }
+        .last_center{
+            margin: 20px 140px 30px 14%;
+        }
+        .last-left{
+           width: 47%;
+            border-right:1px solid black ;
+            height: 100%;
+            display: inline-block;
+
+        }
+        .left1{
+            width: 30%;
+            height: 100%;
+            display: inline-block;
+            border: 1px solid #F7F7F7;
+        }
+
+        .left1>div{
+            width: 100%;
+            font-size: 10px;
+            color: gray;
+            margin-top: 10px;
+        }
+        .left1>h4{
+            width: 100%;
+            margin-top: 0px;
+            color: black;
+            font-size: 15px;
+            height: 20px;
+        }
+        .last-right{
+            width: 49%;
+            display: inline-block;
+            height: 100%;
+            border: 1px solid #F7F7F7;
+            vertical-align: top;
+        }
+        .right2{
+            display: inline-block;
+        }
+        .right2>p{
+            margin: 20px 50px 20px 50px;
+            font-size: 10px;
+            color: gray;
+        }
+        .right1{
+            vertical-align: top;
+            /*padding-top: 25px;*/
+            display: inline-block;
+        }
+        .right1>img{
+            width: 100px;
+            height: 100px;
+            margin: 15px;
+            vertical-align: top;
+        }
+        .right1>h3{
+            margin: 35px 0px 20px 0px;
+        }
+        .right1>span{
+            font-size: 10px;
+            color: gray;
+        }
+        .last_foot{
+            text-align: center;
+            font-size: 10px;
+            color: gray;
+        }
+        .last_foot>img{
+            width: 87px;
+            height: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="all">
+        <div class="top">
+            <div class="top1 hang"><img src="../img/logo.png" alt=""></div>
+            <a href="#"><div class="top-font hang">首页</div></a>
+            <a href="#"><div class="top-font hang">我的订单</div></a>
+            <a href="#"><div class="top-font hang h">加盟合作</div></a>
+            <a href="#"><img src="../img/kf.png" class="kf"><div class="top-font hang">客服中心</div></a>
+            <a href="#"><div class="top-font hang">规则中心</div></a>
+            <a href="#"><img src="../img/phone.png" class="phone"><div class="top-font hang">手机用户</div></a>
+        </div>
+
+        <div class="jing">
+            <span>当前位置: 泗泾丽德创业园上海艾荔艾金属材料有限公司 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="">[切换地址]</a></span>
+            <input type="text" class="inso">
+            <img src="../img/so.png" class="so">
+            <div class="hwo"><img src="//faas.elemecdn.com/desktop/media/img/takeout.408a87.png" alt=""></div>
+            <div class="kinds">
+                <div class="kind_left">商家分类 ：</div>
+                <div class="kind_right">
+                    <a href="">全部商家</a>
+                    <a href="">美食</a>
+                    <a href="">快餐便当</a>
+                    <a href="">特色菜系</a>
+                    <a href="">异国料理</a>
+                    <a href="">小吃夜宵</a>
+                    <a href="">甜品饮品</a>
+                    <a href=""> 果蔬生鲜</a>
+                    <a href=""> 商店超市</a>
+                    <a href="">浪漫鲜花</a>
+                    <a href="">医药健康</a>
+                    <a href="">早餐午餐</a>
+                    <a href="">下午茶晚</a>
+                    <a href="">餐夜宵</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="center">
+            <div class="food_line">
+                <div class="food"> 
+                    <div class="food_left">
+                        <img src="../../eleMa/img/zzz.jpg" alt="">
+                        <p>45+ 分钟</p>
+                    </div>
+                    
+                    <div class="food_right">
+                        <div class="name">川香家常菜</div>
+                        <img src="../img/start.png" alt=""><span>月售1929单</span>
+                        <div class="money">配送费￥5</div>
+                        <div class="bao">保</div>
+                        <div class="piao">票</div>
+                        <div class="xiu">商家休息暂不接单</div>
+                    </div>
+                </div>
+
+                <div class="food">
+                    <div class="food_left">
+                        <img src="//fuss10.elemecdn.com/3/b3/1388f7572c6b5475f7e78109fecefpng.png?imageMogr2/thumbnail/70x70" alt="">
+                        <p>45+ 分钟</p>
+                    </div>
+
+                    <div class="food_right">
+                        <div class="name">川香家常菜</div>
+                        <img src="../img/start.png" alt=""><span>月售1929单</span>
+                        <div class="money">配送费￥5</div>
+                        <div class="bao">保</div>
+                        <div class="piao">票</div>
+                        <div class="xiu">商家休息暂不接单</div>
+                    </div>
+                </div>
+
+                <div class="food">
+                    <div class="food_left">
+                        <img src="../../eleMa/img/zzz.jpg" alt="">
+                        <p>45+ 分钟</p>
+                    </div>
+
+                    <div class="food_right">
+                        <div class="name">川香家常菜</div>
+                        <img src="../img/start.png" alt=""><span>月售1929单</span>
+                        <div class="money">配送费￥5</div>
+                        <div class="bao">保</div>
+                        <div class="piao">票</div>
+                        <div class="xiu">商家休息暂不接单</div>
+                    </div>
+                </div>
+
+                <div class="food">
+                    <div class="food_left">
+                        <img src="//fuss10.elemecdn.com/3/b3/1388f7572c6b5475f7e78109fecefpng.png?imageMogr2/thumbnail/70x70" alt="">
+                        <p>45+ 分钟</p>
+                    </div>
+
+                    <div class="food_right">
+                        <div class="name">川香家常菜</div>
+                        <img src="../img/start.png" alt=""><span>月售1929单</span>
+                        <div class="money">配送费￥5</div>
+                        <div class="bao">保</div>
+                        <div class="piao">票</div>
+                        <div class="xiu">商家休息暂不接单</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="food_line">
+                <div class="food">
+                    <div class="food_left">
+                        <img src="../../eleMa/img/zzz.jpg" alt="">
+                        <p>45+ 分钟</p>
+                    </div>
+
+                    <div class="food_right">
+                        <div class="name">川香家常菜</div>
+                        <img src="../img/start.png" alt=""><span>月售1929单</span>
+                        <div class="money">配送费￥5</div>
+                        <div class="bao">保</div>
+                        <div class="piao">票</div>
+                        <div class="xiu">商家休息暂不接单</div>
+                    </div>
+                </div>
+
+                <div class="food">
+                    <div class="food_left">
+                        <img src="//fuss10.elemecdn.com/3/b3/1388f7572c6b5475f7e78109fecefpng.png?imageMogr2/thumbnail/70x70" alt="">
+                        <p>45+ 分钟</p>
+                    </div>
+
+                    <div class="food_right">
+                        <div class="name">川香家常菜</div>
+                        <img src="../img/start.png" alt=""><span>月售1929单</span>
+                        <div class="money">配送费￥5</div>
+                        <div class="bao">保</div>
+                        <div class="piao">票</div>
+                        <div class="xiu">商家休息暂不接单</div>
+                    </div>
+                </div>
+
+                <div class="food">
+                    <div class="food_left">
+                        <img src="../../eleMa/img/zzz.jpg" alt="">
+                        <p>45+ 分钟</p>
+                    </div>
+
+                    <div class="food_right">
+                        <div class="name">川香家常菜</div>
+                        <img src="../img/start.png" alt=""><span>月售1929单</span>
+                        <div class="money">配送费￥5</div>
+                        <div class="bao">保</div>
+                        <div class="piao">票</div>
+                        <div class="xiu">商家休息暂不接单</div>
+                    </div>
+                </div>
+
+                <div class="food">
+                    <div class="food_left">
+                        <img src="//fuss10.elemecdn.com/3/b3/1388f7572c6b5475f7e78109fecefpng.png?imageMogr2/thumbnail/70x70" alt="">
+                        <p>45+ 分钟</p>
+                    </div>
+
+                    <div class="food_right">
+                        <div class="name">川香家常菜</div>
+                        <img src="../img/start.png" alt=""><span>月售1929单</span>
+                        <div class="money">配送费￥5</div>
+                        <div class="bao">保</div>
+                        <div class="piao">票</div>
+                        <div class="xiu">商家休息暂不接单</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="food_line">
+                <div class="food">
+                    <div class="food_left">
+                        <img src="../../eleMa/img/zzz.jpg" alt="">
+                        <p>45+ 分钟</p>
+                    </div>
+
+                    <div class="food_right">
+                        <div class="name">川香家常菜</div>
+                        <img src="../img/start.png" alt=""><span>月售1929单</span>
+                        <div class="money">配送费￥5</div>
+                        <div class="bao">保</div>
+                        <div class="piao">票</div>
+                        <div class="xiu">商家休息暂不接单</div>
+                    </div>
+                </div>
+
+                <div class="food">
+                    <div class="food_left">
+                        <img src="//fuss10.elemecdn.com/3/b3/1388f7572c6b5475f7e78109fecefpng.png?imageMogr2/thumbnail/70x70" alt="">
+                        <p>45+ 分钟</p>
+                    </div>
+
+                    <div class="food_right">
+                        <div class="name">川香家常菜</div>
+                        <img src="../img/start.png" alt=""><span>月售1929单</span>
+                        <div class="money">配送费￥5</div>
+                        <div class="bao">保</div>
+                        <div class="piao">票</div>
+                        <div class="xiu">商家休息暂不接单</div>
+                    </div>
+                </div>
+
+                <div class="food">
+                    <div class="food_left">
+                        <img src="../../eleMa/img/zzz.jpg" alt="">
+                        <p>45+ 分钟</p>
+                    </div>
+
+                    <div class="food_right">
+                        <div class="name">川香家常菜</div>
+                        <img src="../img/start.png" alt=""><span>月售1929单</span>
+                        <div class="money">配送费￥5</div>
+                        <div class="bao">保</div>
+                        <div class="piao">票</div>
+                        <div class="xiu">商家休息暂不接单</div>
+                    </div>
+                </div>
+
+                <div class="food">
+                    <div class="food_left">
+                        <img src="//fuss10.elemecdn.com/3/b3/1388f7572c6b5475f7e78109fecefpng.png?imageMogr2/thumbnail/70x70" alt="">
+                        <p>45+ 分钟</p>
+                    </div>
+
+                    <div class="food_right">
+                        <div class="name">川香家常菜</div>
+                        <img src="../img/start.png" alt=""><span>月售1929单</span>
+                        <div class="money">配送费￥5</div>
+                        <div class="bao">保</div>
+                        <div class="piao">票</div>
+                        <div class="xiu">商家休息暂不接单</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="food_line">
+                <div class="food">
+                    <div class="food_left">
+                        <img src="../../eleMa/img/zzz.jpg" alt="">
+                        <p>45+ 分钟</p>
+                    </div>
+
+                    <div class="food_right">
+                        <div class="name">川香家常菜</div>
+                        <img src="../img/start.png" alt=""><span>月售1929单</span>
+                        <div class="money">配送费￥5</div>
+                        <div class="bao">保</div>
+                        <div class="piao">票</div>
+                        <div class="xiu">商家休息暂不接单</div>
+                    </div>
+                </div>
+
+                <div class="food">
+                    <div class="food_left">
+                        <img src="//fuss10.elemecdn.com/3/b3/1388f7572c6b5475f7e78109fecefpng.png?imageMogr2/thumbnail/70x70" alt="">
+                        <p>45+ 分钟</p>
+                    </div>
+
+                    <div class="food_right">
+                        <div class="name">川香家常菜</div>
+                        <img src="../img/start.png" alt=""><span>月售1929单</span>
+                        <div class="money">配送费￥5</div>
+                        <div class="bao">保</div>
+                        <div class="piao">票</div>
+                        <div class="xiu">商家休息暂不接单</div>
+                    </div>
+                </div>
+
+                <div class="food">
+                    <div class="food_left">
+                        <img src="../../eleMa/img/zzz.jpg" alt="">
+                        <p>45+ 分钟</p>
+                    </div>
+
+                    <div class="food_right">
+                        <div class="name">川香家常菜</div>
+                        <img src="../img/start.png" alt=""><span>月售1929单</span>
+                        <div class="money">配送费￥5</div>
+                        <div class="bao">保</div>
+                        <div class="piao">票</div>
+                        <div class="xiu">商家休息暂不接单</div>
+                    </div>
+                </div>
+
+                <div class="food">
+                    <div class="food_left">
+                        <img src="//fuss10.elemecdn.com/3/b3/1388f7572c6b5475f7e78109fecefpng.png?imageMogr2/thumbnail/70x70" alt="">
+                        <p>45+ 分钟</p>
+                    </div>
+
+                    <div class="food_right">
+                        <div class="name">川香家常菜</div>
+                        <img src="../img/start.png" alt=""><span>月售1929单</span>
+                        <div class="money">配送费￥5</div>
+                        <div class="bao">保</div>
+                        <div class="piao">票</div>
+                        <div class="xiu">商家休息暂不接单</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="food_line">
+                <div class="food">
+                    <div class="food_left">
+                        <img src="../../eleMa/img/zzz.jpg" alt="">
+                        <p>45+ 分钟</p>
+                    </div>
+
+                    <div class="food_right">
+                        <div class="name">川香家常菜</div>
+                        <img src="../img/start.png" alt=""><span>月售1929单</span>
+                        <div class="money">配送费￥5</div>
+                        <div class="bao">保</div>
+                        <div class="piao">票</div>
+                        <div class="xiu">商家休息暂不接单</div>
+                    </div>
+                </div>
+
+                <div class="food">
+                    <div class="food_left">
+                        <img src="//fuss10.elemecdn.com/3/b3/1388f7572c6b5475f7e78109fecefpng.png?imageMogr2/thumbnail/70x70" alt="">
+                        <p>45+ 分钟</p>
+                    </div>
+
+                    <div class="food_right">
+                        <div class="name">川香家常菜</div>
+                        <img src="../img/start.png" alt=""><span>月售1929单</span>
+                        <div class="money">配送费￥5</div>
+                        <div class="bao">保</div>
+                        <div class="piao">票</div>
+                        <div class="xiu">商家休息暂不接单</div>
+                    </div>
+                </div>
+
+                <div class="food">
+                    <div class="food_left">
+                        <img src="../../eleMa/img/zzz.jpg" alt="">
+                        <p>45+ 分钟</p>
+                    </div>
+
+                    <div class="food_right">
+                        <div class="name">川香家常菜</div>
+                        <img src="../img/start.png" alt=""><span>月售1929单</span>
+                        <div class="money">配送费￥5</div>
+                        <div class="bao">保</div>
+                        <div class="piao">票</div>
+                        <div class="xiu">商家休息暂不接单</div>
+                    </div>
+                </div>
+
+                <div class="food">
+                    <div class="food_left">
+                        <img src="//fuss10.elemecdn.com/3/b3/1388f7572c6b5475f7e78109fecefpng.png?imageMogr2/thumbnail/70x70" alt="">
+                        <p>45+ 分钟</p>
+                    </div>
+
+                    <div class="food_right">
+                        <div class="name">川香家常菜</div>
+                        <img src="../img/start.png" alt=""><span>月售1929单</span>
+                        <div class="money">配送费￥5</div>
+                        <div class="bao">保</div>
+                        <div class="piao">票</div>
+                        <div class="xiu">商家休息暂不接单</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="food_line">
+                <div class="food">
+                    <div class="food_left">
+                        <img src="../../eleMa/img/zzz.jpg" alt="">
+                        <p>45+ 分钟</p>
+                    </div>
+
+                    <div class="food_right">
+                        <div class="name">川香家常菜</div>
+                        <img src="../img/start.png" alt=""><span>月售1929单</span>
+                        <div class="money">配送费￥5</div>
+                        <div class="bao">保</div>
+                        <div class="piao">票</div>
+                        <div class="xiu">商家休息暂不接单</div>
+                    </div>
+                </div>
+
+                <div class="food">
+                    <div class="food_left">
+                        <img src="//fuss10.elemecdn.com/3/b3/1388f7572c6b5475f7e78109fecefpng.png?imageMogr2/thumbnail/70x70" alt="">
+                        <p>45+ 分钟</p>
+                    </div>
+
+                    <div class="food_right">
+                        <div class="name">川香家常菜</div>
+                        <img src="../img/start.png" alt=""><span>月售1929单</span>
+                        <div class="money">配送费￥5</div>
+                        <div class="bao">保</div>
+                        <div class="piao">票</div>
+                        <div class="xiu">商家休息暂不接单</div>
+                    </div>
+                </div>
+
+                <div class="food">
+                    <div class="food_left">
+                        <img src="../../eleMa/img/zzz.jpg" alt="">
+                        <p>45+ 分钟</p>
+                    </div>
+
+                    <div class="food_right">
+                        <div class="name">川香家常菜</div>
+                        <img src="../img/start.png" alt=""><span>月售1929单</span>
+                        <div class="money">配送费￥5</div>
+                        <div class="bao">保</div>
+                        <div class="piao">票</div>
+                        <div class="xiu">商家休息暂不接单</div>
+                    </div>
+                </div>
+
+                <div class="food">
+                    <div class="food_left">
+                        <img src="//fuss10.elemecdn.com/3/b3/1388f7572c6b5475f7e78109fecefpng.png?imageMogr2/thumbnail/70x70" alt="">
+                        <p>45+ 分钟</p>
+                    </div>
+
+                    <div class="food_right">
+                        <div class="name">川香家常菜</div>
+                        <img src="../img/start.png" alt=""><span>月售1929单</span>
+                        <div class="money">配送费￥5</div>
+                        <div class="bao">保</div>
+                        <div class="piao">票</div>
+                        <div class="xiu">商家休息暂不接单</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="food_line">
+                <div class="food">
+                    <div class="food_left">
+                        <img src="../../eleMa/img/zzz.jpg" alt="">
+                        <p>45+ 分钟</p>
+                    </div>
+
+                    <div class="food_right">
+                        <div class="name">川香家常菜</div>
+                        <img src="../img/start.png" alt=""><span>月售1929单</span>
+                        <div class="money">配送费￥5</div>
+                        <div class="bao">保</div>
+                        <div class="piao">票</div>
+                        <div class="xiu">商家休息暂不接单</div>
+                    </div>
+                </div>
+
+                <div class="food">
+                    <div class="food_left">
+                        <img src="//fuss10.elemecdn.com/3/b3/1388f7572c6b5475f7e78109fecefpng.png?imageMogr2/thumbnail/70x70" alt="">
+                        <p>45+ 分钟</p>
+                    </div>
+
+                    <div class="food_right">
+                        <div class="name">川香家常菜</div>
+                        <img src="../img/start.png" alt=""><span>月售1929单</span>
+                        <div class="money">配送费￥5</div>
+                        <div class="bao">保</div>
+                        <div class="piao">票</div>
+                        <div class="xiu">商家休息暂不接单</div>
+                    </div>
+                </div>
+
+                <div class="food">
+                    <div class="food_left">
+                        <img src="../../eleMa/img/zzz.jpg" alt="">
+                        <p>45+ 分钟</p>
+                    </div>
+
+                    <div class="food_right">
+                        <div class="name">川香家常菜</div>
+                        <img src="../img/start.png" alt=""><span>月售1929单</span>
+                        <div class="money">配送费￥5</div>
+                        <div class="bao">保</div>
+                        <div class="piao">票</div>
+                        <div class="xiu">商家休息暂不接单</div>
+                    </div>
+                </div>
+
+                <div class="food">
+                    <div class="food_left">
+                        <img src="//fuss10.elemecdn.com/3/b3/1388f7572c6b5475f7e78109fecefpng.png?imageMogr2/thumbnail/70x70" alt="">
+                        <p>45+ 分钟</p>
+                    </div>
+
+                    <div class="food_right">
+                        <div class="name">川香家常菜</div>
+                        <img src="../img/start.png" alt=""><span>月售1929单</span>
+                        <div class="money">配送费￥5</div>
+                        <div class="bao">保</div>
+                        <div class="piao">票</div>
+                        <div class="xiu">商家休息暂不接单</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="food_line">
+                <div class="food">
+                    <div class="food_left">
+                        <img src="../../eleMa/img/zzz.jpg" alt="">
+                        <p>45+ 分钟</p>
+                    </div>
+
+                    <div class="food_right">
+                        <div class="name">川香家常菜</div>
+                        <img src="../img/start.png" alt=""><span>月售1929单</span>
+                        <div class="money">配送费￥5</div>
+                        <div class="bao">保</div>
+                        <div class="piao">票</div>
+                        <div class="xiu">商家休息暂不接单</div>
+                    </div>
+                </div>
+
+                <div class="food">
+                    <div class="food_left">
+                        <img src="//fuss10.elemecdn.com/3/b3/1388f7572c6b5475f7e78109fecefpng.png?imageMogr2/thumbnail/70x70" alt="">
+                        <p>45+ 分钟</p>
+                    </div>
+
+                    <div class="food_right">
+                        <div class="name">川香家常菜</div>
+                        <img src="../img/start.png" alt=""><span>月售1929单</span>
+                        <div class="money">配送费￥5</div>
+                        <div class="bao">保</div>
+                        <div class="piao">票</div>
+                        <div class="xiu">商家休息暂不接单</div>
+                    </div>
+                </div>
+
+                <div class="food">
+                    <div class="food_left">
+                        <img src="../../eleMa/img/zzz.jpg" alt="">
+                        <p>45+ 分钟</p>
+                    </div>
+
+                    <div class="food_right">
+                        <div class="name">川香家常菜</div>
+                        <img src="../img/start.png" alt=""><span>月售1929单</span>
+                        <div class="money">配送费￥5</div>
+                        <div class="bao">保</div>
+                        <div class="piao">票</div>
+                        <div class="xiu">商家休息暂不接单</div>
+                    </div>
+                </div>
+
+                <div class="food">
+                    <div class="food_left">
+                        <img src="//fuss10.elemecdn.com/3/b3/1388f7572c6b5475f7e78109fecefpng.png?imageMogr2/thumbnail/70x70" alt="">
+                        <p>45+ 分钟</p>
+                    </div>
+
+                    <div class="food_right">
+                        <div class="name">川香家常菜</div>
+                        <img src="../img/start.png" alt=""><span>月售1929单</span>
+                        <div class="money">配送费￥5</div>
+                        <div class="bao">保</div>
+                        <div class="piao">票</div>
+                        <div class="xiu">商家休息暂不接单</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="food_line">
+                <div class="food">
+                    <div class="food_left">
+                        <img src="../../eleMa/img/zzz.jpg" alt="">
+                        <p>45+ 分钟</p>
+                    </div>
+
+                    <div class="food_right">
+                        <div class="name">川香家常菜</div>
+                        <img src="../img/start.png" alt=""><span>月售1929单</span>
+                        <div class="money">配送费￥5</div>
+                        <div class="bao">保</div>
+                        <div class="piao">票</div>
+                        <div class="xiu">商家休息暂不接单</div>
+                    </div>
+                </div>
+
+                <div class="food">
+                    <div class="food_left">
+                        <img src="//fuss10.elemecdn.com/3/b3/1388f7572c6b5475f7e78109fecefpng.png?imageMogr2/thumbnail/70x70" alt="">
+                        <p>45+ 分钟</p>
+                    </div>
+
+                    <div class="food_right">
+                        <div class="name">川香家常菜</div>
+                        <img src="../img/start.png" alt=""><span>月售1929单</span>
+                        <div class="money">配送费￥5</div>
+                        <div class="bao">保</div>
+                        <div class="piao">票</div>
+                        <div class="xiu">商家休息暂不接单</div>
+                    </div>
+                </div>
+
+                <div class="food">
+                    <div class="food_left">
+                        <img src="../../eleMa/img/zzz.jpg" alt="">
+                        <p>45+ 分钟</p>
+                    </div>
+
+                    <div class="food_right">
+                        <div class="name">川香家常菜</div>
+                        <img src="../img/start.png" alt=""><span>月售1929单</span>
+                        <div class="money">配送费￥5</div>
+                        <div class="bao">保</div>
+                        <div class="piao">票</div>
+                        <div class="xiu">商家休息暂不接单</div>
+                    </div>
+                </div>
+
+                <div class="food">
+                    <div class="food_left">
+                        <img src="//fuss10.elemecdn.com/3/b3/1388f7572c6b5475f7e78109fecefpng.png?imageMogr2/thumbnail/70x70" alt="">
+                        <p>45+ 分钟</p>
+                    </div>
+
+                    <div class="food_right">
+                        <div class="name">川香家常菜</div>
+                        <img src="../img/start.png" alt=""><span>月售1929单</span>
+                        <div class="money">配送费￥5</div>
+                        <div class="bao">保</div>
+                        <div class="piao">票</div>
+                        <div class="xiu">商家休息暂不接单</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="food_line">
+                <div class="food">
+                    <div class="food_left">
+                        <img src="../../eleMa/img/zzz.jpg" alt="">
+                        <p>45+ 分钟</p>
+                    </div>
+
+                    <div class="food_right">
+                        <div class="name">川香家常菜</div>
+                        <img src="../img/start.png" alt=""><span>月售1929单</span>
+                        <div class="money">配送费￥5</div>
+                        <div class="bao">保</div>
+                        <div class="piao">票</div>
+                        <div class="xiu">商家休息暂不接单</div>
+                    </div>
+                </div>
+
+                <div class="food">
+                    <div class="food_left">
+                        <img src="//fuss10.elemecdn.com/3/b3/1388f7572c6b5475f7e78109fecefpng.png?imageMogr2/thumbnail/70x70" alt="">
+                        <p>45+ 分钟</p>
+                    </div>
+
+                    <div class="food_right">
+                        <div class="name">川香家常菜</div>
+                        <img src="../img/start.png" alt=""><span>月售1929单</span>
+                        <div class="money">配送费￥5</div>
+                        <div class="bao">保</div>
+                        <div class="piao">票</div>
+                        <div class="xiu">商家休息暂不接单</div>
+                    </div>
+                </div>
+
+                <div class="food">
+                    <div class="food_left">
+                        <img src="../../eleMa/img/zzz.jpg" alt="">
+                        <p>45+ 分钟</p>
+                    </div>
+
+                    <div class="food_right">
+                        <div class="name">川香家常菜</div>
+                        <img src="../img/start.png" alt=""><span>月售1929单</span>
+                        <div class="money">配送费￥5</div>
+                        <div class="bao">保</div>
+                        <div class="piao">票</div>
+                        <div class="xiu">商家休息暂不接单</div>
+                    </div>
+                </div>
+
+                <div class="food">
+                    <div class="food_left">
+                        <img src="//fuss10.elemecdn.com/3/b3/1388f7572c6b5475f7e78109fecefpng.png?imageMogr2/thumbnail/70x70" alt="">
+                        <p>45+ 分钟</p>
+                    </div>
+
+                    <div class="food_right">
+                        <div class="name">川香家常菜</div>
+                        <img src="../img/start.png" alt=""><span>月售1929单</span>
+                        <div class="money">配送费￥5</div>
+                        <div class="bao">保</div>
+                        <div class="piao">票</div>
+                        <div class="xiu">商家休息暂不接单</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="center_foot">点击加载更多商家...</div>
+
+        </div>
+
+        <div class="last">
+            <div class="last_center">
+
+                <div class="last-left">
+                    <div class="left1">
+                        <h4>用户帮助</h4>
+                        <div>我要开店</div>
+                        <div> 加盟指南</div>
+                        <div>市场合作</div>
+                        <div>开放平台</div>
+                    </div>
+                    <div class="left1">
+                        <h4>用户帮助</h4>
+                        <div>我要开店</div>
+                        <div> 加盟指南</div>
+                        <div>市场合作</div>
+                        <div>开放平台</div>
+                    </div>
+                    <div class="left1">
+                        <h4>用户帮助</h4>
+                        <div>我要开店</div>
+                        <div> 加盟指南</div>
+                        <div>市场合作</div>
+                        <div>开放平台</div>
+                    </div>
+                </div>
+
+                <div class="last-right">
+                    <div class="right2">
+                        <p>24小时客服热线 : 10105757</p>
+                        <p>意见反馈 : feedback@ele.me</p>
+                        <p>关注我们 :</p>
+                    </div>
+
+
+                    <div class="right1">
+                        <img src="//faas.elemecdn.com/desktop/media/img/appqc.95e532.png" alt="">
+                    </div>
+                    <div class="right1">
+                        <h3>下载手机版</h3>
+                        <span>扫一扫,手机订餐方便</span>
+                    </div>
+                </div>
+
+            </div>
+            
+            <div class="last_foot">
+                <div>所有方：上海拉扎斯信息科技有限公司</div>
+                <div>增值电信业务许可证 : 沪B2-20150033 | 沪ICP备 09007032 | 上海工商行政管理 Copyright ©2008-2017 ele.me, All Rights Reserved.</div>
+                <img src="//faas.elemecdn.com/desktop/media/img/picp_bg.e373b3.jpg" alt="">
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
